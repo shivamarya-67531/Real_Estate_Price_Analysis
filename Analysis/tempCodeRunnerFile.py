@@ -1,0 +1,5 @@
+sns.scatterplot(data=df, x='area', y='rate_per_sqft')
+plt.show()
+print('No, larger homes are not always more expensive per square foot as there is no clear trend in the scatter plot.')
+larger_homes_expensive = df.groupby('area')['rate_per_sqft'].mean().sort_values(ascending=False).head(5).index.tolist()
+print(f"\nLarger homes with the highest average rate per sqft are: {larger_homes_expensive} sqft.")

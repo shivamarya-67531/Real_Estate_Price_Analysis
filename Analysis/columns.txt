@@ -1,0 +1,15 @@
+ #   Column         Non-Null Count  Dtype
+---  ------         --------------  -----
+ 0   price          14223 non-null  int64
+ 1   status         14223 non-null  str  
+ 2   area           14223 non-null  int64
+ 3   rate_per_sqft  14223 non-null  int64
+ 4   property_type  14223 non-null  str  
+ 5   locality       14223 non-null  str  
+ 6   builder_name   14223 non-null  str  
+ 7   rera_approval  14223 non-null  bool 
+ 8   bhk_count      14223 non-null  int64
+ 9   society        14223 non-null  str  
+ 10  company_name   14223 non-null  str  
+ 11  flat_type      14223 non-null  str  
+dtypes: bool(1), int64(4), str(7)
